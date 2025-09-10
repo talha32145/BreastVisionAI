@@ -1,0 +1,8 @@
+sklearn-svm-LinearSVC
+pandas
+matplotlib-pyplot
+ sklearn-model_selection-train_test_split
+sklearn-metrics-accuracy_score-recall_score-confusion_matrix-precision_score-classification_report
+streamlit 
+google-generativeai
+seaborn  
