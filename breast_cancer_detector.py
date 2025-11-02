@@ -7,7 +7,7 @@ import streamlit as st
 import google.generativeai as genai
 import seaborn as sns 
 
-genai.configure(api_key="AIzaSyAjxcWvjDxmvyy_bJWh6z54Vgusr3yMh-Y")
+genai.configure(api_key="YOUR_API_KEY")
 models=genai.GenerativeModel("gemini-2.5-pro")
 
 df=pd.read_csv("Breast_cancer_dataset.csv")
@@ -199,4 +199,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
